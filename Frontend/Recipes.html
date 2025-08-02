@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahve Tarifleri</title>
+    <link rel="stylesheet" href="Recipes.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+            <nav class="navbar section-content">
+             <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕︎ྀི Coffee</h2>
+             </a>
+             <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Ana sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Hakkımızda</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="Recipes.html" class="nav-link">Tarifler</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">İletişim</a>
+             </ul>
+             <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <!-- Tarifler -->
+    <main>
+        <section class="menu-section">
+            <div class="section-content">
+                <ul class="menu-list">
+
+                    <li class="menu-item">
+                        <img src="images/turk_kahvesi.jpg" alt="Türk Kahvesi">
+                        <h3>Türk Kahvesi</h3>
+                        <p>Klasik cezvede hazırlanan, köpüklü ve yoğun aromalı geleneksel Türk kahvesi tarifi.</p>
+                        <button class="show-recipe" data-recipe="1">Tarifi Gör</button>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="images/latte.jpg" alt="Latte">
+                        <h3>Latte</h3>
+                        <p>Süt ve espresso uyumu: Evde kolayca yapabileceğiniz latte tarifi.</p>
+                        <button class="show-recipe" data-recipe="2">Tarifi Gör</button>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Modal -->
+                <div id="recipeModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="recipeTitle">Tarif Başlığı</h2>
+                    <p id="recipeContent">Tarif içeriği buraya gelecek...</p>
+                  </div>
+                </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
