@@ -347,6 +347,40 @@ header .navbar {
     color: grey;
 }
 
+/* Footer section styling */
+.footer-section {
+    background: rgb(44, 44, 44);
+    padding: 20px 0;
+}
+
+.footer-section :where(.copyright-text, .social-link, .policy-link) {
+    color: white;
+    transition: 0.2s ease;
+}
+
+.footer-section .section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section .social-link-list {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-section .social-link-list .social-link {
+    font-size: var(--font-size-1);
+}
+
+.footer-section .social-link-list .social-link:hover, .footer-section .policy-text .policy-link:hover  {
+    color: var(--secondary-color);
+}
+
+.footer-section .policy-text .seperator {
+    color: white;
+    margin: 0 5px;
+}
 
 @media screen and (max-width: 900px) {
 :root {
@@ -443,6 +477,11 @@ body.show-mobile-menu header::before {
    .contact-section .section-content{
     align-items: center;
     flex-direction: column-reverse;
+   }
+
+   .footer-section .section-content {
+    flex-direction: column;
+    gap: 20px;
    }
 }
 
