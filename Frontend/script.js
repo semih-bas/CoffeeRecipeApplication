@@ -3,13 +3,37 @@ const menuOpenButton = document.querySelector("#menu-open-button");
 const menuCloseButton = document.querySelector("#menu-close-button");
 
 
+
 // Açma butonuna tıklanınca body'ye sınıf ekleniyor/çıkarılıyor
 menuOpenButton.addEventListener("click", () => {
     document.body.classList.toggle("show-mobile-menu");
 });
 
+
 // Kapatma butonuna tıklanınca açma butonunun click eventi tekrar tetikleniyor
 menuCloseButton.addEventListener("click", () => menuOpenButton.click()); 
+
+
+
+// Yorum Gönderme Formu
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contact-form");
+  const toast = document.getElementById("toast");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    form.reset();
+
+    // Toast mesajı göster
+    toast.classList.add("show");
+
+    // 3 saniye sonra gizle
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 3000);
+  });
+});
+
 
 
 //Tarifleri gösteren modal penceresi için gerekli kodlar
