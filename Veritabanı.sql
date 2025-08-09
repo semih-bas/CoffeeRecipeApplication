@@ -1,0 +1,8 @@
+CREATE TABLE SiparisGecmisi (
+    SiparisID INT PRIMARY KEY IDENTITY(1,1),
+    MusteriAdi NVARCHAR(100) NOT NULL,
+    UrunAdi NVARCHAR(100) NOT NULL,
+    Adet INT NOT NULL,
+    Fiyat DECIMAL(10, 2) NOT NULL,
+    SiparisTarihi DATETIME DEFAULT GETDATE()
+);
