@@ -10,3 +10,4 @@ namespace AlisverisSitesi.Data
         public DbSet<Kullanici> Kullanicilar { get; set; }
     }
 }
+

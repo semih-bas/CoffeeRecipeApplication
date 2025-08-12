@@ -1,10 +1,22 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace AlisverisSitesi.Models
 {
     public class Kullanici
     {
         public int Id { get; set; }
-        public string Ad { get; set; }
+
+        [Required]
+        public string KullaniciAdi { get; set; }
+
+        [Required, EmailAddress]
         public string Email { get; set; }
-        public string Sifre { get; set; }
+
+        // Hashlenmiş şifre saklanacak
+        [Required]
+        public string SifreHash { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

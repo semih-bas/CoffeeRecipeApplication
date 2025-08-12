@@ -26,6 +26,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+
+                         @if (!string.IsNullOrEmpty(uname))
+                            {
+                                <span>Hoş geldin, @uname</span>
+                                    <a href="/Account/Logout">Çıkış</a>
+                                }
+                                else
+                                {
+                                    <a href="/Account/Login">Giriş yap</a>
+                                    <a href="/Account/Register">Kayıt ol</a>
+                                }
                     </ul>
                 </div>
             </div>

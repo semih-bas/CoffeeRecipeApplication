@@ -1,0 +1,10 @@
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.csproj.AssemblyReference.cache
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.AssemblyInfoInputs.cache
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.AssemblyInfo.cs
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.csproj.CoreCompileInputs.cache
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.RazorAssemblyInfo.cache
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.RazorAssemblyInfo.cs
+C:\Users\Semih\OneDrive\Masaüstü\CoffeeRecipeApplication\AlisverisSitesi\AlisverisSitesi\obj\Debug\net9.0\AlisverisSitesi.sourcelink.json
