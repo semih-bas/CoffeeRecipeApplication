@@ -1,0 +1,24 @@
+@model IEnumerable<AlisverisSitesi.Models.Siparis>
+
+<h2>Siparişler</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Ürün</th>
+        <th>Miktar</th>
+        <th>Fiyat</th>
+        <th>Kullanıcı</th>
+        <th>Tarih</th>
+    </tr>
+@foreach (var s in Model)
+{
+    <tr>
+        <td>@s.Id</td>
+        <td>@s.UrunAdi</td>
+        <td>@s.Miktar</td>
+        <td>@s.Fiyat</td>
+        <td>@s.Kullanici.Ad</td>
+        <td>@s.SiparisTarihi</td>
+    </tr>
+}
+</table>

@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Sipariş Ver";
+}
+<h2>Sipariş Ver</h2>
+
+@if(TempData["Success"] != null) { <div style="color:green">@TempData["Success"]</div> }
+
+<form method="post" asp-action="Ver">
+    <input name="urunAdi" placeholder="Ürün adı" class="form-control"/><br/>
+    <input name="adet" placeholder="Adet" type="number" class="form-control" value="1"/><br/>
+    <input name="fiyat" placeholder="Fiyat" type="number" step="0.01" class="form-control"/><br/>
+    <button type="submit">Sepete Ekle / Sipariş Ver</button>
+</form>

@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+<h2>Giriş Yap</h2>
+
+@if(ViewBag.Error != null) { <div style="color:red">@ViewBag.Error</div> }
+
+<form method="post" asp-action="Giris">
+    <input name="email" placeholder="E-posta" class="form-control"/><br/>
+    <input name="sifre" placeholder="Şifre" type="password" class="form-control"/><br/>
+    <button type="submit">Giriş Yap</button>
+</form>

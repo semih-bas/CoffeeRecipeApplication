@@ -5,7 +5,7 @@ namespace AlisverisSitesi.Utilities
 {
     public static class PasswordHelper
     {
-        public static string HashPassword(string password)
+        public static string Hash(string password)
         {
             using var rng = RandomNumberGenerator.Create();
             byte[] salt = new byte[16];
@@ -31,3 +31,4 @@ namespace AlisverisSitesi.Utilities
         }
     }
 }
+

@@ -1,3 +1,4 @@
+// Models/Kullanici.cs
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -5,18 +6,19 @@ namespace AlisverisSitesi.Models
 {
     public class Kullanici
     {
+        [Key]
         public int Id { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string KullaniciAdi { get; set; }
 
-        [Required, EmailAddress]
+        [Required]
+        [MaxLength(100)]
         public string Email { get; set; }
 
-        // Hashlenmiş şifre saklanacak
         [Required]
-        public string SifreHash { get; set; }
-
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        [MaxLength(255)]
+        public string Sifre { get; set; }
     }
 }
